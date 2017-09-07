@@ -1,0 +1,65 @@
+version: '2'
+services:
+    mysql1:
+        image: mgr5.7.17
+        container_name: mgr1
+        hostname: mgr1
+        privileged: true
+        restart: always
+        ports:
+            - "33316:3306"
+        volumes:
+            - ./data/mysql_s1:/var/lib/mysql
+            - ./conf/my1.cnf:/etc/my.cnf
+        networks:
+            app_net:
+                ipv4_address: 172.22.0.6
+        extra_hosts:
+            - "mgr2:172.22.0.7"
+            - "mgr3:172.22.0.8"
+    mysql2:
+        image: mgr5.7.17 
+        container_name: mgr2
+        hostname: mgr2
+        privileged: true
+        restart: always
+        ports:
+            - "33326:3306"
+        volumes:
+            - ./data/mysql_s2:/var/lib/mysql
+            - ./conf/my2.cnf:/etc/my.cnf
+        networks:
+            app_net:
+                ipv4_address: 172.22.0.7
+        extra_hosts:
+            - "mgr1:172.22.0.6"
+            - "mgr3:172.22.0.8"
+
+    mysql3:
+        image: mgr5.7.17 
+        container_name: mgr3
+        hostname: mgr3
+        privileged: true
+        restart: always
+        ports:
+            - "33336:3306"
+        volumes:
+            - ./data/mysql_s3:/var/lib/mysql
+            - ./conf/my3.cnf:/etc/my.cnf
+        networks:
+            app_net:
+                ipv4_address: 172.22.0.8
+        extra_hosts:
+            - "mgr1:172.22.0.6"
+            - "mgr2:172.22.0.7"
+
+networks:
+    app_net:
+        driver: bridge
+        driver_opts:
+            com.docker.network.enable_ipv6: "false"
+        ipam:
+            driver: default
+            config:
+            - subnet: 172.22.0.0/16
+              gateway: 172.22.0.1
