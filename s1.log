@@ -1,0 +1,398 @@
+2017-09-04T10:04:46.082409Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-09-04T10:04:46.082488Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2017-09-04T10:04:46.082596Z 0 [ERROR] Can't find error-message file '/user/share/mysql/errmsg.sys'. Check error-message file location and 'lc-messages-dir' configuration directive.
+2017-09-04T10:04:49.686106Z 0 [Warning] InnoDB: New log files created, LSN=45790
+2017-09-04T10:04:50.337052Z 0 [Warning] InnoDB: Creating foreign key constraint system tables.
+2017-09-04T10:04:50.849287Z 0 [Warning] unknown variable 'loose-group_replication_group_name=aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa'
+2017-09-04T10:04:50.849337Z 0 [Warning] unknown variable 'loose-group_replication_local_address=172.22.0.6:3301'
+2017-09-04T10:04:50.849345Z 0 [Warning] unknown variable 'loose-group_replication_group_seeds=172.22.0.6:3301,172.22.0.7:3302,172.22.0.8:3303'
+2017-09-04T10:04:50.849352Z 0 [Warning] unknown variable 'loose-group_replication_start_on_boot=off'
+2017-09-04T10:04:50.849359Z 0 [Warning] unknown variable 'loose-group_replication_bootstrap_group=off'
+2017-09-04T10:04:50.849366Z 0 [Warning] unknown variable 'loose-group_replication_single_primary_mode=FALSE'
+2017-09-04T10:04:50.849372Z 0 [Warning] unknown variable 'loose-group_replication_enforce_update_everywhere_checks=TRUE'
+2017-09-04T10:04:51.058506Z 0 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 7dba1043-9158-11e7-a6b9-0242ac160006.
+2017-09-04T10:04:51.076170Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2017-09-04T10:04:51.098937Z 1 [Warning] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2017-09-04T10:05:11.074473Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-09-04T10:05:11.074555Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2017-09-04T10:05:11.076664Z 0 [Note] mysqld (mysqld 5.7.17-log) starting as process 1 ...
+2017-09-04T10:05:11.076726Z 0 [ERROR] Can't find error-message file '/user/share/mysql/errmsg.sys'. Check error-message file location and 'lc-messages-dir' configuration directive.
+2017-09-04T10:05:11.081264Z 0 [Note] InnoDB: PUNCH HOLE support available
+2017-09-04T10:05:11.081311Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-09-04T10:05:11.081327Z 0 [Note] InnoDB: Uses event mutexes
+2017-09-04T10:05:11.081337Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2017-09-04T10:05:11.081347Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-09-04T10:05:11.081356Z 0 [Note] InnoDB: Using Linux native AIO
+2017-09-04T10:05:11.081761Z 0 [Note] InnoDB: Number of pools: 1
+2017-09-04T10:05:11.081920Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2017-09-04T10:05:11.084415Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2017-09-04T10:05:11.097153Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-09-04T10:05:11.099741Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2017-09-04T10:05:11.112485Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-09-04T10:05:11.161472Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2017-09-04T10:05:11.161627Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2017-09-04T10:05:11.365435Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2017-09-04T10:05:11.367433Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2017-09-04T10:05:11.367469Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2017-09-04T10:05:11.368401Z 0 [Note] InnoDB: Waiting for purge to start
+2017-09-04T10:05:11.418715Z 0 [Note] InnoDB: 5.7.17 started; log sequence number 2535388
+2017-09-04T10:05:11.419188Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2017-09-04T10:05:11.419331Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2017-09-04T10:05:11.421360Z 0 [Note] InnoDB: Buffer pool(s) load completed at 170904 10:05:11
+2017-09-04T10:05:11.423424Z 0 [Warning] unknown variable 'loose-group_replication_group_name=aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa'
+2017-09-04T10:05:11.423461Z 0 [Warning] unknown variable 'loose-group_replication_local_address=172.22.0.6:3301'
+2017-09-04T10:05:11.423470Z 0 [Warning] unknown variable 'loose-group_replication_group_seeds=172.22.0.6:3301,172.22.0.7:3302,172.22.0.8:3303'
+2017-09-04T10:05:11.423477Z 0 [Warning] unknown variable 'loose-group_replication_start_on_boot=off'
+2017-09-04T10:05:11.423483Z 0 [Warning] unknown variable 'loose-group_replication_bootstrap_group=off'
+2017-09-04T10:05:11.423490Z 0 [Warning] unknown variable 'loose-group_replication_single_primary_mode=FALSE'
+2017-09-04T10:05:11.423497Z 0 [Warning] unknown variable 'loose-group_replication_enforce_update_everywhere_checks=TRUE'
+2017-09-04T10:05:11.600209Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2017-09-04T10:05:11.600587Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-09-04T10:05:11.600638Z 0 [Note] IPv6 is available.
+2017-09-04T10:05:11.600660Z 0 [Note]   - '::' resolves to '::';
+2017-09-04T10:05:11.600690Z 0 [Note] Server socket created on IP: '::'.
+2017-09-04T10:05:11.634904Z 0 [Note] Event Scheduler: Loaded 0 events
+2017-09-04T10:05:11.635179Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2017-09-04T10:05:11.635199Z 0 [Note] Beginning of list of non-natively partitioned tables
+2017-09-04T10:05:11.654022Z 0 [Note] End of list of non-natively partitioned tables
+2017-09-04T10:05:11.654214Z 0 [Note] 
+2017-09-04T10:05:22.379296Z 3 [Warning] Neither --relay-log nor --relay-log-index were used; so replication may break when this MySQL server acts as a slave and has his hostname changed!! Please use '--relay-log=mgr1-relay-bin' to avoid this problem.
+2017-09-04T10:05:22.424734Z 3 [Note] 'CHANGE MASTER TO FOR CHANNEL 'group_replication_recovery' executed'. Previous state master_host='', master_port= 3306, master_log_file='', master_log_pos= 4, master_bind=''. New state master_host='', master_port= 3306, master_log_file='', master_log_pos= 4, master_bind=''.
+2017-09-04T10:05:27.949281Z 3 [Note] Plugin group_replication reported: 'Group communication SSL configuration: group_replication_ssl_mode: "DISABLED"'
+2017-09-04T10:05:27.949466Z 3 [Note] Plugin group_replication reported: '[GCS] Added automatically IP ranges 127.0.0.1/8 to the whitelist'
+2017-09-04T10:05:27.949682Z 3 [Note] Plugin group_replication reported: '[GCS] SSL was not enabled'
+2017-09-04T10:05:27.949716Z 3 [Note] Plugin group_replication reported: 'Initialized group communication with configuration: group_replication_group_name: "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"; group_replication_local_address: "172.22.0.6:3301"; group_replication_group_seeds: "172.22.0.6:3301,172.22.0.7:3302,172.22.0.8:3303"; group_replication_bootstrap_group: true; group_replication_poll_spin_loops: 0; group_replication_compression_threshold: 1000000; group_replication_ip_whitelist: "AUTOMATIC"'
+2017-09-04T10:05:28.016183Z 6 [Note] 'CHANGE MASTER TO FOR CHANNEL 'group_replication_applier' executed'. Previous state master_host='', master_port= 3306, master_log_file='', master_log_pos= 4, master_bind=''. New state master_host='<NULL>', master_port= 0, master_log_file='', master_log_pos= 4, master_bind=''.
+2017-09-04T10:05:28.159519Z 9 [Note] Slave SQL thread for channel 'group_replication_applier' initialized, starting replication in log 'FIRST' at position 0, relay log './mgr1-relay-bin-group_replication_applier.000001' position: 4
+2017-09-04T10:05:28.159618Z 3 [Note] Plugin group_replication reported: 'Group Replication applier module successfully initialized!'
+2017-09-04T10:05:28.159645Z 3 [Note] Plugin group_replication reported: 'auto_increment_increment is set to 7'
+2017-09-04T10:05:28.159658Z 3 [Note] Plugin group_replication reported: 'auto_increment_offset is set to 1'
+2017-09-04T10:05:28.159942Z 0 [Note] Plugin group_replication reported: 'state 0 action xa_init'
+2017-09-04T10:05:28.185274Z 0 [Note] Plugin group_replication reported: 'Successfully bound to 0.0.0.0:3301 (socket=68).'
+2017-09-04T10:05:28.185318Z 0 [Note] Plugin group_replication reported: 'Successfully set listen backlog to 32 (socket=68)!'
+2017-09-04T10:05:28.185330Z 0 [Note] Plugin group_replication reported: 'Successfully unblocked socket (socket=68)!'
+2017-09-04T10:05:28.185378Z 0 [Note] Plugin group_replication reported: 'Ready to accept incoming connections on 0.0.0.0:3301 (socket=68)!'
+2017-09-04T10:05:28.185440Z 0 [Note] Plugin group_replication reported: 'connecting to 172.22.0.6 3301'
+2017-09-04T10:05:28.185649Z 0 [Note] Plugin group_replication reported: 'client connected to 172.22.0.6 3301 fd 69'
+2017-09-04T10:05:28.185786Z 0 [Warning] Plugin group_replication reported: '[GCS] Connection attempt from IP address 172.22.0.6 refused. Address is not in the IP whitelist.'
+2017-09-04T10:05:28.185968Z 0 [ERROR] Plugin group_replication reported: '[GCS] Error connecting to the local group communication engine instance.'
+2017-09-04T10:05:28.186003Z 0 [Note] Plugin group_replication reported: 'state 4257 action xa_exit'
+2017-09-04T10:05:28.186150Z 0 [Note] Plugin group_replication reported: 'Exiting xcom thread'
+2017-09-04T10:05:29.200532Z 0 [ERROR] Plugin group_replication reported: '[GCS] The member was unable to join the group. Local port: 3301'
+2017-09-04T10:06:28.159900Z 3 [ERROR] Plugin group_replication reported: 'Timeout on wait for view after joining group'
+2017-09-04T10:06:28.160033Z 3 [Note] Plugin group_replication reported: 'Requesting to leave the group despite of not being a member'
+2017-09-04T10:06:28.160069Z 3 [ERROR] Plugin group_replication reported: '[GCS] The member is leaving a group without being on one.'
+2017-09-04T10:06:28.160318Z 3 [Note] Plugin group_replication reported: 'auto_increment_increment is reset to 1'
+2017-09-04T10:06:28.160354Z 3 [Note] Plugin group_replication reported: 'auto_increment_offset is reset to 1'
+2017-09-04T10:06:28.160906Z 9 [Note] Error reading relay log event for channel 'group_replication_applier': slave SQL thread was killed
+2017-09-04T10:06:28.182203Z 6 [Note] Plugin group_replication reported: 'The group replication applier thread was killed'
+2017-09-07T01:09:40.412275Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2017-09-07T01:09:40.412328Z 0 [Note] Shutting down slave threads
+2017-09-07T01:09:40.412344Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2017-09-07T01:09:40.413195Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2017-09-07T01:09:41.061307Z 0 [Note] Binlog end
+2017-09-07T01:09:41.211337Z 0 [Note] Shutting down plugin 'group_replication'
+2017-09-07T01:09:41.211514Z 0 [Note] Plugin group_replication reported: 'All Group Replication server observers have been successfully unregistered'
+2017-09-07T01:09:41.211603Z 0 [Note] Shutting down plugin 'ngram'
+2017-09-07T01:09:41.211616Z 0 [Note] Shutting down plugin 'partition'
+2017-09-07T01:09:41.211625Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2017-09-07T01:09:41.211636Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2017-09-07T01:09:41.211644Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-09-07T01:09:41.211701Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-09-07T01:09:41.211712Z 0 [Note] Shutting down plugin 'MyISAM'
+2017-09-07T01:09:41.211738Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2017-09-07T01:09:41.211760Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-09-07T01:09:41.211769Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-09-07T01:09:41.211793Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-09-07T01:09:41.211800Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-09-07T01:09:41.211807Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-09-07T01:09:41.211813Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-09-07T01:09:41.211820Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-09-07T01:09:41.211826Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-09-07T01:09:41.211832Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-09-07T01:09:41.211839Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-09-07T01:09:41.211845Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-09-07T01:09:41.211851Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-09-07T01:09:41.211857Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-09-07T01:09:41.211863Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-09-07T01:09:41.211870Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-09-07T01:09:41.211876Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-09-07T01:09:41.211882Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2017-09-07T01:09:41.211888Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-09-07T01:09:41.211895Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-09-07T01:09:41.211901Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-09-07T01:09:41.211907Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-09-07T01:09:41.211913Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-09-07T01:09:41.211919Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-09-07T01:09:41.211926Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-09-07T01:09:41.211932Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-09-07T01:09:41.211938Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2017-09-07T01:09:41.211944Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-09-07T01:09:41.211951Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-09-07T01:09:41.211957Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2017-09-07T01:09:41.211964Z 0 [Note] Shutting down plugin 'InnoDB'
+2017-09-07T01:09:41.212156Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2017-09-07T01:09:41.212386Z 0 [Note] InnoDB: Starting shutdown...
+2017-09-07T01:09:41.313068Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2017-09-07T01:09:41.331270Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 170907  1:09:41
+2017-09-07T01:09:42.758366Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2547244
+2017-09-07T01:09:42.761927Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2017-09-07T01:09:42.761958Z 0 [Note] Shutting down plugin 'MEMORY'
+2017-09-07T01:09:42.761969Z 0 [Note] Shutting down plugin 'CSV'
+2017-09-07T01:09:42.761978Z 0 [Note] Shutting down plugin 'sha256_password'
+2017-09-07T01:09:42.761985Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2017-09-07T01:09:42.762690Z 0 [Note] Shutting down plugin 'binlog'
+2017-09-07T01:09:42.763442Z 0 [Note] 
+2017-09-07T01:20:47.236347Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-09-07T01:20:47.236432Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2017-09-07T01:20:47.238649Z 0 [Note] mysqld (mysqld 5.7.17-log) starting as process 1 ...
+2017-09-07T01:20:47.238722Z 0 [ERROR] Can't find error-message file '/user/share/mysql/errmsg.sys'. Check error-message file location and 'lc-messages-dir' configuration directive.
+2017-09-07T01:20:47.555547Z 0 [Note] InnoDB: PUNCH HOLE support available
+2017-09-07T01:20:47.555608Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-09-07T01:20:47.555624Z 0 [Note] InnoDB: Uses event mutexes
+2017-09-07T01:20:47.555635Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2017-09-07T01:20:47.555646Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-09-07T01:20:47.555676Z 0 [Note] InnoDB: Using Linux native AIO
+2017-09-07T01:20:47.556111Z 0 [Note] InnoDB: Number of pools: 1
+2017-09-07T01:20:47.556284Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2017-09-07T01:20:47.570240Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2017-09-07T01:20:47.582861Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-09-07T01:20:47.585682Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2017-09-07T01:20:47.743166Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-09-07T01:20:48.522049Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2017-09-07T01:20:48.522207Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2017-09-07T01:20:49.618746Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2017-09-07T01:20:49.620367Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2017-09-07T01:20:49.620390Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2017-09-07T01:20:49.621406Z 0 [Note] InnoDB: Waiting for purge to start
+2017-09-07T01:20:49.671765Z 0 [Note] InnoDB: 5.7.17 started; log sequence number 2547244
+2017-09-07T01:20:49.673061Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2017-09-07T01:20:49.673512Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2017-09-07T01:21:01.135144Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2017-09-07T01:21:01.135589Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-09-07T01:21:01.135641Z 0 [Note] IPv6 is available.
+2017-09-07T01:21:01.135657Z 0 [Note]   - '::' resolves to '::';
+2017-09-07T01:21:01.135695Z 0 [Note] Server socket created on IP: '::'.
+2017-09-07T01:21:02.068194Z 0 [Note] InnoDB: Buffer pool(s) load completed at 170907  1:21:02
+2017-09-07T01:21:06.274342Z 0 [Warning] Neither --relay-log nor --relay-log-index were used; so replication may break when this MySQL server acts as a slave and has his hostname changed!! Please use '--relay-log=mgr1-relay-bin' to avoid this problem.
+2017-09-07T01:21:23.322051Z 0 [Note] Event Scheduler: Loaded 0 events
+2017-09-07T01:21:23.322335Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2017-09-07T01:21:23.322354Z 0 [Note] Beginning of list of non-natively partitioned tables
+2017-09-07T01:21:27.811976Z 0 [Note] End of list of non-natively partitioned tables
+2017-09-07T01:21:27.812150Z 0 [Note] 
+2017-09-07T01:29:05.010094Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2017-09-07T01:29:05.010140Z 0 [Note] Shutting down slave threads
+2017-09-07T01:29:05.010150Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2017-09-07T01:29:05.010164Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2017-09-07T01:29:05.052542Z 0 [Note] Binlog end
+2017-09-07T01:29:05.064626Z 0 [Note] Shutting down plugin 'group_replication'
+2017-09-07T01:29:05.064800Z 0 [Note] Plugin group_replication reported: 'All Group Replication server observers have been successfully unregistered'
+2017-09-07T01:29:05.064821Z 0 [Note] Shutting down plugin 'ngram'
+2017-09-07T01:29:05.064830Z 0 [Note] Shutting down plugin 'partition'
+2017-09-07T01:29:05.064838Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2017-09-07T01:29:05.064847Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2017-09-07T01:29:05.064855Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-09-07T01:29:05.064893Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-09-07T01:29:05.064903Z 0 [Note] Shutting down plugin 'MyISAM'
+2017-09-07T01:29:05.064918Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2017-09-07T01:29:05.064927Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-09-07T01:29:05.064946Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-09-07T01:29:05.064953Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-09-07T01:29:05.064960Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-09-07T01:29:05.064966Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-09-07T01:29:05.064973Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-09-07T01:29:05.064979Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-09-07T01:29:05.064986Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-09-07T01:29:05.064992Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-09-07T01:29:05.064999Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-09-07T01:29:05.065005Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-09-07T01:29:05.065012Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-09-07T01:29:05.065018Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-09-07T01:29:05.065025Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-09-07T01:29:05.065031Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-09-07T01:29:05.065038Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-09-07T01:29:05.065044Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2017-09-07T01:29:05.065050Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-09-07T01:29:05.065057Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-09-07T01:29:05.065063Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-09-07T01:29:05.065070Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-09-07T01:29:05.065076Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-09-07T01:29:05.065083Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-09-07T01:29:05.065089Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-09-07T01:29:05.065095Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-09-07T01:29:05.065102Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2017-09-07T01:29:05.065108Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-09-07T01:29:05.065114Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-09-07T01:29:05.065121Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2017-09-07T01:29:05.065127Z 0 [Note] Shutting down plugin 'InnoDB'
+2017-09-07T01:29:05.065291Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2017-09-07T01:29:05.065563Z 0 [Note] InnoDB: Starting shutdown...
+2017-09-07T01:29:05.165948Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2017-09-07T01:29:05.166561Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 170907  1:29:05
+2017-09-07T01:29:06.993819Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2551773
+2017-09-07T01:29:06.996827Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2017-09-07T01:29:06.996850Z 0 [Note] Shutting down plugin 'MEMORY'
+2017-09-07T01:29:06.996860Z 0 [Note] Shutting down plugin 'CSV'
+2017-09-07T01:29:06.996869Z 0 [Note] Shutting down plugin 'sha256_password'
+2017-09-07T01:29:06.996876Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2017-09-07T01:29:06.997286Z 0 [Note] Shutting down plugin 'binlog'
+2017-09-07T01:29:06.997953Z 0 [Note] 
+2017-09-07T01:52:03.852677Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-09-07T01:52:03.852770Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2017-09-07T01:52:03.878022Z 0 [Note] mysqld (mysqld 5.7.17-log) starting as process 1 ...
+2017-09-07T01:52:03.878095Z 0 [ERROR] Can't find error-message file '/user/share/mysql/errmsg.sys'. Check error-message file location and 'lc-messages-dir' configuration directive.
+2017-09-07T01:52:03.940646Z 0 [Note] InnoDB: PUNCH HOLE support available
+2017-09-07T01:52:03.940695Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-09-07T01:52:03.940707Z 0 [Note] InnoDB: Uses event mutexes
+2017-09-07T01:52:03.940718Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2017-09-07T01:52:03.940743Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-09-07T01:52:03.940754Z 0 [Note] InnoDB: Using Linux native AIO
+2017-09-07T01:52:03.963658Z 0 [Note] InnoDB: Number of pools: 1
+2017-09-07T01:52:04.015001Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2017-09-07T01:52:04.137634Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2017-09-07T01:52:04.369448Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-09-07T01:52:04.499747Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2017-09-07T01:52:04.663828Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-09-07T01:52:06.005972Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2017-09-07T01:52:06.009009Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2017-09-07T01:52:06.566626Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2017-09-07T01:52:06.568254Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2017-09-07T01:52:06.568278Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2017-09-07T01:52:06.569666Z 0 [Note] InnoDB: 5.7.17 started; log sequence number 2551773
+2017-09-07T01:52:06.570945Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2017-09-07T01:52:06.758860Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2017-09-07T01:52:09.427830Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2017-09-07T01:52:09.653209Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-09-07T01:52:09.653300Z 0 [Note] IPv6 is available.
+2017-09-07T01:52:09.653329Z 0 [Note]   - '::' resolves to '::';
+2017-09-07T01:52:09.653370Z 0 [Note] Server socket created on IP: '::'.
+2017-09-07T01:52:09.664621Z 0 [Note] InnoDB: Buffer pool(s) load completed at 170907  1:52:09
+2017-09-07T01:52:16.101353Z 0 [Warning] Neither --relay-log nor --relay-log-index were used; so replication may break when this MySQL server acts as a slave and has his hostname changed!! Please use '--relay-log=mgr1-relay-bin' to avoid this problem.
+2017-09-07T01:52:45.385869Z 0 [Note] Event Scheduler: Loaded 0 events
+2017-09-07T01:52:45.386073Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2017-09-07T01:52:45.386093Z 0 [Note] Beginning of list of non-natively partitioned tables
+2017-09-07T01:52:49.132623Z 0 [Note] End of list of non-natively partitioned tables
+2017-09-07T01:52:49.132787Z 0 [Note] 
+2017-09-07T01:53:14.883024Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2017-09-07T01:53:14.883072Z 0 [Note] Shutting down slave threads
+2017-09-07T01:53:14.883083Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2017-09-07T01:53:14.883097Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2017-09-07T01:53:15.204675Z 0 [Note] Binlog end
+2017-09-07T01:53:15.344624Z 0 [Note] Shutting down plugin 'group_replication'
+2017-09-07T01:53:15.344746Z 0 [Note] Plugin group_replication reported: 'All Group Replication server observers have been successfully unregistered'
+2017-09-07T01:53:15.344767Z 0 [Note] Shutting down plugin 'ngram'
+2017-09-07T01:53:15.344775Z 0 [Note] Shutting down plugin 'partition'
+2017-09-07T01:53:15.344783Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2017-09-07T01:53:15.344792Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2017-09-07T01:53:15.344800Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-09-07T01:53:15.344839Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-09-07T01:53:15.344848Z 0 [Note] Shutting down plugin 'MyISAM'
+2017-09-07T01:53:15.344867Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2017-09-07T01:53:15.344875Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-09-07T01:53:15.344883Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-09-07T01:53:15.344903Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-09-07T01:53:15.344911Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-09-07T01:53:15.344918Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-09-07T01:53:15.344924Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-09-07T01:53:15.344930Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-09-07T01:53:15.344937Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-09-07T01:53:15.344943Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-09-07T01:53:15.344950Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-09-07T01:53:15.344956Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-09-07T01:53:15.344963Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-09-07T01:53:15.344969Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-09-07T01:53:15.344976Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-09-07T01:53:15.344982Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-09-07T01:53:15.344989Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-09-07T01:53:15.344995Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2017-09-07T01:53:15.345001Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-09-07T01:53:15.345008Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-09-07T01:53:15.345014Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-09-07T01:53:15.345020Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-09-07T01:53:15.345027Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-09-07T01:53:15.345034Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-09-07T01:53:15.345040Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-09-07T01:53:15.345047Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-09-07T01:53:15.345054Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2017-09-07T01:53:15.345060Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-09-07T01:53:15.345067Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-09-07T01:53:15.345073Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2017-09-07T01:53:15.345080Z 0 [Note] Shutting down plugin 'InnoDB'
+2017-09-07T01:53:15.345228Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2017-09-07T01:53:15.345397Z 0 [Note] InnoDB: Starting shutdown...
+2017-09-07T01:53:15.445661Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2017-09-07T01:53:15.470047Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 170907  1:53:15
+2017-09-07T01:53:17.330178Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2553612
+2017-09-07T01:53:17.333148Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2017-09-07T01:53:17.333172Z 0 [Note] Shutting down plugin 'MEMORY'
+2017-09-07T01:53:17.333184Z 0 [Note] Shutting down plugin 'CSV'
+2017-09-07T01:53:17.333194Z 0 [Note] Shutting down plugin 'sha256_password'
+2017-09-07T01:53:17.333201Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2017-09-07T01:53:17.333641Z 0 [Note] Shutting down plugin 'binlog'
+2017-09-07T01:53:17.334373Z 0 [Note] 
+2017-09-07T06:23:55.665468Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-09-07T06:23:55.665551Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2017-09-07T06:23:55.667196Z 0 [Note] mysqld (mysqld 5.7.17-log) starting as process 1 ...
+2017-09-07T06:23:55.667257Z 0 [ERROR] Can't find error-message file '/user/share/mysql/errmsg.sys'. Check error-message file location and 'lc-messages-dir' configuration directive.
+2017-09-07T06:23:55.721143Z 0 [Note] InnoDB: PUNCH HOLE support available
+2017-09-07T06:23:55.721197Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-09-07T06:23:55.721209Z 0 [Note] InnoDB: Uses event mutexes
+2017-09-07T06:23:55.721220Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2017-09-07T06:23:55.721230Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-09-07T06:23:55.721257Z 0 [Note] InnoDB: Using Linux native AIO
+2017-09-07T06:23:55.721652Z 0 [Note] InnoDB: Number of pools: 1
+2017-09-07T06:23:55.721802Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2017-09-07T06:23:55.724247Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2017-09-07T06:23:55.737427Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-09-07T06:23:55.740492Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2017-09-07T06:23:55.753255Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-09-07T06:23:55.897079Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2017-09-07T06:23:55.897217Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2017-09-07T06:23:56.177560Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2017-09-07T06:23:56.179583Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2017-09-07T06:23:56.179620Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2017-09-07T06:23:56.181073Z 0 [Note] InnoDB: Waiting for purge to start
+2017-09-07T06:23:56.231389Z 0 [Note] InnoDB: 5.7.17 started; log sequence number 2553612
+2017-09-07T06:23:56.232512Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2017-09-07T06:23:56.233089Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2017-09-07T06:23:56.236260Z 0 [Note] InnoDB: Buffer pool(s) load completed at 170907  6:23:56
+2017-09-07T06:23:56.395662Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2017-09-07T06:23:56.396001Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-09-07T06:23:56.396055Z 0 [Note] IPv6 is available.
+2017-09-07T06:23:56.396071Z 0 [Note]   - '::' resolves to '::';
+2017-09-07T06:23:56.396112Z 0 [Note] Server socket created on IP: '::'.
+2017-09-07T06:23:56.466725Z 0 [Warning] Neither --relay-log nor --relay-log-index were used; so replication may break when this MySQL server acts as a slave and has his hostname changed!! Please use '--relay-log=mgr1-relay-bin' to avoid this problem.
+2017-09-07T06:23:56.582942Z 0 [Note] Event Scheduler: Loaded 0 events
+2017-09-07T06:23:56.583209Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2017-09-07T06:23:56.583228Z 0 [Note] Beginning of list of non-natively partitioned tables
+2017-09-07T06:23:56.601787Z 0 [Note] End of list of non-natively partitioned tables
+2017-09-07T06:23:56.601974Z 0 [Note] 
+2017-09-07T06:25:19.667107Z 4 [Note] 'CHANGE MASTER TO FOR CHANNEL 'group_replication_recovery' executed'. Previous state master_host='', master_port= 3306, master_log_file='', master_log_pos= 4, master_bind=''. New state master_host='', master_port= 3306, master_log_file='', master_log_pos= 4, master_bind=''.
+2017-09-07T06:25:31.344255Z 4 [Note] Plugin group_replication reported: 'Group communication SSL configuration: group_replication_ssl_mode: "DISABLED"'
+2017-09-07T06:25:31.344916Z 4 [Note] Plugin group_replication reported: '[GCS] Added automatically IP ranges 127.0.0.1/8 to the whitelist'
+2017-09-07T06:25:31.345613Z 4 [Note] Plugin group_replication reported: '[GCS] SSL was not enabled'
+2017-09-07T06:25:31.345657Z 4 [Note] Plugin group_replication reported: 'Initialized group communication with configuration: group_replication_group_name: "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"; group_replication_local_address: "172.22.0.6:3301"; group_replication_group_seeds: "172.22.0.6:3301,172.22.0.7:3302,172.22.0.8:3303"; group_replication_bootstrap_group: true; group_replication_poll_spin_loops: 0; group_replication_compression_threshold: 1000000; group_replication_ip_whitelist: "AUTOMATIC"'
+2017-09-07T06:25:31.346575Z 6 [Note] 'CHANGE MASTER TO FOR CHANNEL 'group_replication_applier' executed'. Previous state master_host='<NULL>', master_port= 0, master_log_file='', master_log_pos= 4, master_bind=''. New state master_host='<NULL>', master_port= 0, master_log_file='', master_log_pos= 4, master_bind=''.
+2017-09-07T06:25:31.428493Z 9 [Note] Slave SQL thread for channel 'group_replication_applier' initialized, starting replication in log 'FIRST' at position 0, relay log './mgr1-relay-bin-group_replication_applier.000001' position: 4
+2017-09-07T06:25:31.428542Z 4 [Note] Plugin group_replication reported: 'Group Replication applier module successfully initialized!'
+2017-09-07T06:25:31.428571Z 4 [Note] Plugin group_replication reported: 'auto_increment_increment is set to 7'
+2017-09-07T06:25:31.428584Z 4 [Note] Plugin group_replication reported: 'auto_increment_offset is set to 1'
+2017-09-07T06:25:31.428860Z 0 [Note] Plugin group_replication reported: 'state 0 action xa_init'
+2017-09-07T06:25:31.467688Z 0 [Note] Plugin group_replication reported: 'Successfully bound to 0.0.0.0:3301 (socket=48).'
+2017-09-07T06:25:31.467746Z 0 [Note] Plugin group_replication reported: 'Successfully set listen backlog to 32 (socket=48)!'
+2017-09-07T06:25:31.467758Z 0 [Note] Plugin group_replication reported: 'Successfully unblocked socket (socket=48)!'
+2017-09-07T06:25:31.467814Z 0 [Note] Plugin group_replication reported: 'Ready to accept incoming connections on 0.0.0.0:3301 (socket=48)!'
+2017-09-07T06:25:31.467865Z 0 [Note] Plugin group_replication reported: 'connecting to 172.22.0.6 3301'
+2017-09-07T06:25:31.468060Z 0 [Note] Plugin group_replication reported: 'client connected to 172.22.0.6 3301 fd 69'
+2017-09-07T06:25:31.468170Z 0 [Warning] Plugin group_replication reported: '[GCS] Connection attempt from IP address 172.22.0.6 refused. Address is not in the IP whitelist.'
+2017-09-07T06:25:31.468337Z 0 [ERROR] Plugin group_replication reported: '[GCS] Error connecting to the local group communication engine instance.'
+2017-09-07T06:25:31.468364Z 0 [Note] Plugin group_replication reported: 'state 4257 action xa_exit'
+2017-09-07T06:25:31.468523Z 0 [Note] Plugin group_replication reported: 'Exiting xcom thread'
+2017-09-07T06:25:32.484144Z 0 [ERROR] Plugin group_replication reported: '[GCS] The member was unable to join the group. Local port: 3301'
+2017-09-07T06:26:31.428811Z 4 [ERROR] Plugin group_replication reported: 'Timeout on wait for view after joining group'
+2017-09-07T06:26:31.428948Z 4 [Note] Plugin group_replication reported: 'Requesting to leave the group despite of not being a member'
+2017-09-07T06:26:31.428982Z 4 [ERROR] Plugin group_replication reported: '[GCS] The member is leaving a group without being on one.'
+2017-09-07T06:26:31.429302Z 4 [Note] Plugin group_replication reported: 'auto_increment_increment is reset to 1'
+2017-09-07T06:26:31.429357Z 4 [Note] Plugin group_replication reported: 'auto_increment_offset is reset to 1'
+2017-09-07T06:26:31.429739Z 9 [Note] Error reading relay log event for channel 'group_replication_applier': slave SQL thread was killed
+2017-09-07T06:26:31.486064Z 6 [Note] Plugin group_replication reported: 'The group replication applier thread was killed'
