@@ -4,12 +4,12 @@ datadir=/var/lib/mysql/
 basedir=/usr/sbin/
 lc-messages-dir=/user/share/mysql
 plugin_dir=/lib64/mysql/plugin/
-socket=/var/lib/mysql/s1.sock
+socket=/var/lib/mysql/mysql.sock
 #symbolic-links=0
-log-error=/var/lib/mysql/s1.log
-pid-file=/var/lib/mysql/s1.pid
+log-error=/var/lib/mysql/mysql.log
+pid-file=/var/lib/mysql/mysql.pid
 user=mysql
-
+skip-name-resolve
 
 # Settings needed for group replication
 server_id=1
@@ -27,6 +27,7 @@ transaction_write_set_extraction=XXHASH64
 loose-group_replication_group_name="aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
 loose-group_replication_local_address="172.22.0.6:3301"
 loose-group_replication_group_seeds="172.22.0.6:3301,172.22.0.7:3302,172.22.0.8:3303"
+loose-group_replication_ip_whitelist="172.22.0.0/16"
 loose-group_replication_start_on_boot=off
 loose-group_replication_bootstrap_group= off
 loose-group_replication_single_primary_mode=FALSE
