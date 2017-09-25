@@ -53,6 +53,46 @@ services:
             - "mgr1:172.22.0.6"
             - "mgr2:172.22.0.7"
 
+
+    mgr.ha:
+        image: mgr:haproxy 
+        container_name: mgrha
+        hostname: mgr.ha
+        privileged: true
+        restart: always
+        ports:
+            - "3316:3306"
+            - "81:80"
+            - "8088:8088"
+        volumes:
+            - ./haproxy/conf/haproxy.cfg:/etc/haproxy/haproxy.cfg
+            - ./haproxy/html:/var/www/html
+        networks:
+            app_net:
+                ipv4_address: 172.22.0.9
+        extra_hosts:
+            - "mgr1:172.22.0.6"
+            - "mgr2:172.22.0.7"
+            - "mgr3:172.22.0.8"
+
+    proxysql:
+        image: proxysql 
+        container_name: proxysql
+        hostname: proxysql
+        privileged: true
+        restart: always
+        ports:
+            - "3306:3306"
+            - "6032:6032"
+        volumes:
+            - ./proxysql:/var/lib/proxysql
+        networks:
+            app_net:
+                ipv4_address: 172.22.0.10
+        extra_hosts:
+            - "mgr1:172.22.0.6"
+            - "mgr2:172.22.0.7"
+            - "mgr3:172.22.0.8"
 networks:
     app_net:
         driver: bridge

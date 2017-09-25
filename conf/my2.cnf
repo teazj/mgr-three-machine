@@ -11,7 +11,6 @@ pid-file=/var/lib/mysql/mysql.pid
 user=mysql
 skip-name-resolve
 
-
 # Settings needed for group replication
 server_id=2
 gtid_mode=ON
@@ -30,5 +29,7 @@ loose-group_replication_group_seeds="172.22.0.6:3301,172.22.0.7:3302,172.22.0.8:
 loose-group_replication_ip_whitelist="172.22.0.0/16"
 loose-group_replication_start_on_boot=off
 loose-group_replication_bootstrap_group= off
-loose-group_replication_single_primary_mode=FALSE
-loose-group_replication_enforce_update_everywhere_checks= TRUE
+#loose-group_replication_single_primary_mode=FALSE
+loose-group_replication_single_primary_mode=TRUE
+#loose-group_replication_enforce_update_everywhere_checks= TRUE
+loose-group_replication_enforce_update_everywhere_checks=FALSE

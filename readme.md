@@ -70,22 +70,18 @@
 
 
 ## 数据库操作
-
-
 	update mysql.user set authentication_string=password('12wsxCDE#') where user='root' and Host = 'localhost';
-	grant all on *.* to 'prodba'@'%' identified by '12wsxCDE#';
 	CREATE DATABASE IF NOT EXISTS test default charset utf8 COLLATE utf8_general_ci;
 	use test;
-	create table `t3`(
-	`id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-	`balance` bigint(20),
-	`name1` varchar(100),
-	`name2` varchar(100),
-	`name3` varchar(100),
-	PRIMARY KEY (`id`)
-	)ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+	CREATE TABLE `t3` (
+	  `id` int(30) unsigned NOT NULL AUTO_INCREMENT,
+	  `name` char(30) NOT NULL COMMENT 'name',
+	  `sex` char(30) NOT NULL COMMENT 'sex',
+	  PRIMARY KEY (`id`)
+	) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
-
+	use test;
+	insert into t3(name,sex) values('t1',11);
 
 
 ## 添加数据
@@ -109,13 +105,21 @@
 	update test set name="123" where id=1;
 	commit;
 
-## 冲突
-	update t3 set balance=200 where id > 1000 and id < 100000;
 
 
-	begin;	update t3 set balance=1000;	commit;
+## 单组模式补充
 
-	select balance from t3 where id > 1000 and id < 8000 limit 10;
+	查看单组
+	show global status like 'group_replication_primary_member';
+
+
+	SELECT member_host as "primary master"  FROM performance_schema.global_status JOIN performance_schema.replication_group_members  WHERE variable_name = 'group_replication_primary_member' AND member_id=variable_value;
+
+
+
+
+
+	update performance_schema.global_status JOIN performance_schema.replication_group_members  WHERE variable_name = 'group_replication_primary_member' AND member_id=variable_value   set MEMBER_HOST="mgr1" ;
 
 
 ## 技术交流

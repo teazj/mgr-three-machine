@@ -1,6 +1,6 @@
 <?php
 header("content-type:text/html;charset=utf-8");
-$conn=@mysql_connect("192.168.20.220","prodba","12wsxCDE#");
+$conn=@mysql_connect("127.0.0.1","root","");
 
 if(!$conn){
         echo "<h2>错误编码:".mysql_errno()."</h2>";
@@ -9,9 +9,8 @@ if(!$conn){
 
         mysql_select_db("test");
         mysql_query("set names utf8");
-        $length=20;
+        $length=10;
         $pagenum=$_GET['page']?$_GET['page']:1;
-        error_reporting(E_ALL & ~ E_WARNING);
         $totsql="select count(*) from t3";
         $totarr=mysql_fetch_row($totrst=mysql_query($totsql));
         $pagetot=ceil($totarr[0]/$length);
@@ -27,10 +26,8 @@ if(!$conn){
         while ($row=mysql_fetch_assoc($rst)) {
                 echo "<tr>";
                 echo "<td>{$row['id']}</td>";
-                echo "<td>{$row['balance']}</td>";
-                echo "<td>{$row['name1']}</td>";
-                echo "<td>{$row['name2']}</td>";
-                echo "<td>{$row['name3']}</td>";
+                echo "<td>{$row['name']}</td>";
+                echo "<td>{$row['sex']}</td>";
                 echo "</tr>";
         }
         echo "</table>";
