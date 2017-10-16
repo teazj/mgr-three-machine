@@ -19,8 +19,8 @@
 ##  在节点上创建监控ProxySQL的监控用户和业务用户
 	CREATE USER 'ProxySQL'@'%' IDENTIFIED BY 'ProxySQLPa55';
 	GRANT USAGE ON  *.* TO 'ProxySQL'@'%';
-	CREATE USER 'sbuser'@'%' IDENTIFIED BY 'sbpass';
-	GRANT ALL ON * . * TO 'sbuser'@'%';
+	CREATE USER 'prodba'@'%' IDENTIFIED BY '12wsxCDE#';
+	GRANT ALL ON *.* TO 'prodba'@'%';
 	FLUSH PRIVILEGES;
 
 
@@ -33,11 +33,18 @@
 	insert into mysql_servers(hostgroup_id,hostname,port) values(1,'172.22.0.7',3306);
 	insert into mysql_servers(hostgroup_id,hostname,port) values(1,'172.22.0.8',3306);
 
-	INSERT INTO MySQL_users(username,password,default_hostgroup) VALUES ('sbuser','sbpass',0);
+	INSERT INTO MySQL_users(username,password,default_hostgroup) VALUES ('prodba','12wsxCDE#',0);
 	UPDATE global_variables SET variable_value='ProxySQL' WHERE variable_name='MySQL-monitor_username';
 	UPDATE global_variables SET variable_value='ProxySQLPa55' WHERE variable_name='MySQL-monitor_password';
 
+## 添加监控
+	insert into scheduler(id, active, interval_ms, filename, arg1, arg2, arg3, arg4)  values(1, 1, 3000, '/var/lib/proxysql/check_proxy.sh', 0, 1, 1, '/var/lib/proxysql/checker.log');
+
+
+
 ##  保存配置
+	LOAD SCHEDULER TO RUNTIME;
+	SAVE SCHEDULER TO DISK;
 	LOAD MYSQL SERVERS TO RUNTIME;
 	LOAD MYSQL USERS TO RUNTIME;
 	save mysql servers to disk;

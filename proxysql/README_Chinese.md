@@ -125,8 +125,7 @@ SAVE MYSQL QUERY RULES TO DISK;
 最后，我们在proxysql的scheduler表里面加载如下记录，然后加载到RUNTIME使其生效，同时还可以持久化到磁盘:
 
 ```sql
-insert into scheduler(id, active, interval_ms, filename, arg1, arg2, arg3, arg4)
-  values(1, 1, 5000, '/var/lib/proxysql/gr_mw_mode_sw_checker.sh', 1, 2, 1, '/var/lib/proxysql/checker.log');
+insert into scheduler(id, active, interval_ms, filename, arg1, arg2, arg3, arg4)  values(1, 1, 3000, '/var/lib/proxysql/check_proxy.sh', 0, 1, 1, '/var/lib/proxysql/checker.log');
 
 LOAD SCHEDULER TO RUNTIME;
 SAVE SCHEDULER TO DISK;
